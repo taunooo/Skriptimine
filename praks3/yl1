@@ -2,4 +2,4 @@
 #
 # Keskkonna ja oma muutujate kasutamine
 #
-
+echo "Tere, $USER!"
