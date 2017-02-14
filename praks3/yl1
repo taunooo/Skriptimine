@@ -3,3 +3,7 @@
 # Keskkonna ja oma muutujate kasutamine
 #
 echo "Tere, $USER!"
+#kuupäeva muutuse loomine
+#defineerimine vastava väärtuse muutuja
+kuupaev=`date +'%d. %B'`
+echo "Täna on $kuupaev "
