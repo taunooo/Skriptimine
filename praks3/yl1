@@ -12,3 +12,8 @@ echo "Täna on $kuupaev "
 kell=`date +'%H:%M'`
 #väljastame
 echo "Kell on $kell"
+kalender=`cal`
+echo "Antud kuu kalender:"
+echo "--------------------"
+echo "$kalender"
+echo "--------------------"
