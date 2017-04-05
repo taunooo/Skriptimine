@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+##
+for ((r=4; r>0; r--))
+do
+	# veerud - tärnid
+	for((t=1; t<$(($r + 1)); t++))
+	do
+		echo -n "* "
+	done
+	echo #reavahetus
+
+done
+
