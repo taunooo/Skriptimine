@@ -3,15 +3,17 @@
 # kolmnurk
 # ülemine kolmnurk
 #alumine kolmnurk
-for ((r=4; r>0; r--))
+echo -n "Sisesta ridade arv: "
+read ridade_arv
+for ((r=1; r<$(($ridade_arv + 1)); r++))
 do
-        # veerud - tärnid
-        for((t=1; t<$r ; t++))
+        # veerud - täpid
+        for((t=1; t<$(($r + 1)); t++))
         do
                 echo -n "o "
         done
 
-	for((t=1; t<$((4 - $r +2 )); t++))
+	for((t=1; t<$(($ridade_arv - $r + 1 )); t++))
         do
                 echo -n "* "
 	done
