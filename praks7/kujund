@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# tärniruut
+#
+for((r=1; r<5; r++))
+do
+	#kontrollime kui R on 1 või (-o) r on 4
+	if [ $r -eq 1 -o $r -eq 4 ]; then
+		for ((v=1; v<6; v++))
+		do
+			echo -n "* "
+		done
+		echo
+	else
+	
+	fi
+done
